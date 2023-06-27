@@ -1,0 +1,207 @@
+<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>/assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>/assets/css/gmenu.css">
+  <link rel="icon" type="image/png" href="../assets/imagens/cornucopia_logo.png">
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/news.css">
+  <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+<div class="container" style="padding: 0px;">
+  <div class="row">
+    <div class="col-sm-12">
+
+    <div class="bar-top">
+    <!-- Logo do CORECON -->
+      <div class="crop-logo"> 
+        <a href="<?php echo BASE_URL; ?>">
+        <img class="logo" src="<?php echo BASE_URL; ?>/assets/imagens/logo-c.png" />
+        </a>
+      </div>
+    <!-- FIM Logo do CORECON -->
+
+
+<div class="col-sm-9  redessociais" style="width:740px; height:114px float: right; margin-left: 300px; position: absolute;">
+
+<div class="col-sm-5 hidden-sx redessociais" style="height:114px; float:right; padding-top:35px">
+
+<!-- Botões das redes sociais -->
+
+<div id="social ">
+	<a class="facebookBtn smGlobalBtn  redessociais "href="https://www.facebook.com/CoreconPE/?fref=ts" target="_blank"></a>
+	<a href="https://www.youtube.com/channel/UCS2N9A4AcbyEsMjsqmrOjqQ" target="_blank"><img src="<?php echo BASE_URL; ?>/uploads/3665173.png" alt="" style="width: 50px; height: 50px; margin-top: -10px"></a>
+	<a class="linkedinBtn smGlobalBtn" href="https://pt.linkedin.com/company/corecon-pe" target="_blank"></a>
+	<a href="https://api.whatsapp.com/send?phone=5581999858433" target="_blank">
+		<img src="<?php echo BASE_URL; ?>/uploads/wp-icon.png" alt="" style="width: 50px; height: 50px; margin-top: -10px">
+	</a>
+	<a href="https://www.instagram.com/corecon.pe/" target="_blank">
+		<img src="<?php echo BASE_URL; ?>/uploads/instagram-icon.png" alt="" style="width: 50px; height: 50px; margin-top: -10px">
+	</a>
+</div>
+
+<!-- FIM Botões das redes sociais -->	
+
+</div>
+
+</div>
+      <div class="crop-bandeira">
+
+
+
+
+        <img class="logo" src="<?php echo BASE_URL; ?>/assets/imagens/bandeira-c.png" />
+
+
+      </div>
+      </div>
+    </div>	
+  </div>
+</div>
+<!-- fim container logo -->
+
+
+
+<div class="container" style="padding: 0px;">
+<div class="row">
+<div class="col-sm-12">
+
+<div class="menu-container">
+<div class="menu">
+<ul>
+
+<!--Item Principal-->
+  <li><a href="#" style="margin-right: -20px; margin-left: -20px;">CORECON-PE</a>
+  <ul>
+  <li><a href="<?php echo BASE_URL; ?>/ma_institucional">Institucional</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/ma_estrut_org">Estrutura Organizacional</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/ma_corecon_midia">CORECON - PE na Mídia</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/ma_informativo">Informativo</a></li>
+  <li><a href="https://www.coreconpe.gov.br/boletim" target="_blank">Boletim - Observatório Econômico</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/ma_fiscalizacao">Fiscalização</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/ma_anui_emolu_mult">Anuidade, Emolumentos e Multas</a></li>
+  </ul>
+  </li>
+
+<!--Item Principal-->
+  <li><a href="#" style="margin-right: -20px; margin-left: -20px;">Enpecon</a>
+  <ul>
+  <li><a href="http://coreconpe.gov.br/enpecon/" target="_blank">Anais do ENPECON</a></li>
+  <li><a href="http://coreconpe.gov.br/eventos/ienpecon/" target="_blank">I Encontro Pernambucano de Economia</a></li>
+  <li><a href="http://coreconpe.gov.br/eventos/iienpecon/" target="_blank">II Encontro Pernambucano de Economia</a></li>
+  <li><a href="http://coreconpe.gov.br/eventos/iiienpecon/" target="_blank">III Encontro Pernambucano de Economia</a></li>
+  <li><a href="http://coreconpe.gov.br/eventos/ivenpecon/" target="_blank">IV Encontro Pernambucano de Economia</a></li>
+  <li><a href="http://coreconpe.gov.br/eventos/venpecon/" target="_blank">V Encontro Pernambucano de Economia</a></li>
+  <li><a href="http://coreconpe.gov.br/vienpecon/" target="_blank">VI Encontro Pernambucano de Economia</a></li>
+  <li><a href="http://coreconpe.gov.br/enpecon/viienpecon" target="_blank">VII Encontro Pernambucano de Economia</a></li>
+  </ul>
+  </li>
+
+<!--Item Principal-->
+  <li><a href="#" style="margin-right: -20px; margin-left: -20px;">Economistas</a>
+  <ul>
+  <li><a href="<?php echo BASE_URL; ?>/mc_regprof">Registro Profissional</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/profissao_economista">Profissão Economista</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/uploads/codigo_de_etica.pdf">Código de Ética</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/mc_cadastro_nperitos">Cadastro Nacional de Peritos</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/mc_certidoes_art">Certidões / ART</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/economistascertificados">Economistas Certificados</a></li>
+  
+  </ul>
+  </li>
+
+<!--Item Principal-->
+  <li><a href="#" style="margin-right: -20px; margin-left: -20px;">Empresa</a>
+  <ul>
+  <li><a href="<?php echo BASE_URL; ?>/md_ob_reg_anuid">Obrigatoriedade do Registro e Anuidades</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/uploads/formulario_alteracao_cadastral.pdf">Alterações Cadastrais</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/md_reg_empresarial">Registro Empresarial</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/md_certidoes_art">Certidões / ART</a></li>
+  </ul>
+  </li>
+
+<!--Item Principal-->
+  <li><a href="#" style="margin-right: -20px; margin-left: -20px;">Estudantes</a>
+  <ul>
+  <li><a href="<?php echo BASE_URL; ?>/dirceu_pessoa">Prêmio Dirceu Pessoa</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/me_credenciamento">Credenciamento</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/me_fac_economiape">Faculdades de Economia do Estado</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/me_gincana_pe">Gincana Pernambucana de Economia</a></li>
+  </ul>
+  </li>
+
+
+<!--Item Principal-->
+  <li><a href="#" style="margin-right: -20px; margin-left: -20px;">Eventos</a>
+  <ul>
+  <li><a href="https://www.coreconpe.gov.br/inscricoes" target="_blank">Inscrições</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/capacitacao">Capacitação</a></li>
+  <li><a href="https://www.coreconpe.gov.br/ultimasnot_geral/completa?id=183" target="_blank">Dia do Economista 2021</a></li>
+  </ul>
+  </li>
+
+
+<!--Item Principal-->
+  <li><a href="#" style="margin-right: -20px; margin-left: -20px;">Serviços</a>
+  <ul>
+  <li><a href="<?php echo BASE_URL; ?>/mg_formularios">Formulários</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/pgto">Portal do Economista</a></li>
+  <li><a href="<?php echo BASE_URL; ?>/mg_fale_conosco">Fale Conosco</a></li>
+  <li><a href="transparencia/index.php/legislacao/">Legislação</a></li>
+  </ul>
+  </li>
+  
+  <li><a href="https://coreconpe.gov.br/oportunidades/" style="margin-right: -20px; margin-left: -20px;">CoreconPE Oportunidades</a></li>
+
+  <li><a href="<?php echo BASE_URL; ?>/transparencia" style="margin-right: -20px; margin-left: -20px;">Transparência e Prestação de Contas</a></li>
+
+  
+
+  </ul>
+  </li>
+
+</ul>
+</div>
+</div> <!-- fim container menu -->
+
+</div>
+</div>
+</div> <!-- fim container -->
+
+
+
+
+ <script>
+    $(document).ready(function () {
+    'use strict';
+    $('.menu > ul > li:has( > ul)').addClass('menu-dropdown-icon');
+    $('.menu > ul > li > ul:not(:has(ul))').addClass('normal-sub');
+    $('.menu > ul').before('<a href="#" class="menu-mobile">Navigation</a>');
+    $('.menu > ul > li').hover(function (e) {
+        if ($(window).width() > 943) {
+            $(this).children('ul').stop(true, false).fadeToggle(150);
+            e.preventDefault();
+        }
+    });
+    $('.menu > ul > li').click(function () {
+        if ($(window).width() <= 943) {
+            $(this).children('ul').fadeToggle(150);
+        }
+    });
+    $('.menu-mobile').click(function (e) {
+        $('.menu > ul').toggleClass('show-on-mobile');
+        e.preventDefault();
+    });
+});
+  //# sourceURL=pen.js
+  </script>
+
+
+  <style type="text/css">
+	.wpp {
+  display:scroll;
+  position:fixed !important;
+  float: right;
+  display: inline;
+  bottom:6px;
+  right:6px;
+}
+
+</style>

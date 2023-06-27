@@ -1,0 +1,36 @@
+<footer class="footer text-center col-sm-12">
+
+    <!-- Botões das redes sociais -->
+
+    <div id="social" style="margin-bottom: 25px; margin-top: -1px;">
+        <a href="https://www.facebook.com/CoreconPE/" target="_blank">
+            <img src="<?php echo BASE_URL; ?>/uploads/facebook-icon.png" alt=""
+                style="width: 40px; height: 40px; margin-top: -10px;">
+        </a>
+        <a href="https://www.youtube.com/channel/UCS2N9A4AcbyEsMjsqmrOjqQ" target="_blank">
+            <img src="<?php echo BASE_URL; ?>/uploads/3665173.png" alt=""
+                style="width: 50px; height: 50px; margin-top: -10px;">
+        </a>
+        <a href="https://pt.linkedin.com/company/corecon-pe" target="_blank">
+            <img src="<?php echo BASE_URL; ?>/uploads/linkedin-icon.png" alt=""
+                style="width: 40px; height: 40px; margin-top: -10px;">
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=5581999858433" target="_blank">
+            <img src="<?php echo BASE_URL; ?>/uploads/wp-icon.png" alt=""
+                style="width: 40px; height: 40px; margin-top: -10px; margin-left: 6px;">
+        </a>
+        <a href="https://www.instagram.com/corecon.pe/" target="_blank">
+            <img src="<?php echo BASE_URL; ?>/uploads/instagram-icon.png" alt=""
+                style="width: 40px; height: 40px; margin-top: -10px;  margin-left: 6px;">
+        </a>
+    </div>
+
+    <!-- FIM Botões das redes sociais -->
+
+
+    <p>© 2017 - Todos os direitos reservados - Corecon-PE - Conselho Regional de Economia - 3ª Região - PE <br>
+        Rua do Riachuelo, 105, sala 212, 2ºandar, Edf. Círculo Católico - Boa Vista - Recife, PE - CEP: 50.050-400 <br>
+        (81) 3039.8842 | 3221.2473 | 99985-8433 (Vivo) <br>
+        Horário de funcionamento: 09:00 às 16:00 horas</p>
+
+</footer>

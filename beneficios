@@ -1,0 +1,753 @@
+<div class="col-sm-12 col-xs-12" style="background-color: #fff; padding-top: 15px">
+    <h3 class="text-center">Clube de Benefícios Corecon-PE</h3>
+
+
+    <div class="col-sm-12 col-xs-12" style=" padding-top: 30px; margin-bottom:30px">
+
+        <!-- "br" utilizado para espaçar melhor o media object -->
+        <br>
+
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <a class="fancybox" href="https://unyleya.edu.br/coreconpe" target="_blank">
+                    <img src="/uploads/convenios/WhatsApp_Image_2022-12-06_at_12.15.14-removebg-preview.png"
+                        class="media-object" style="width:120px;">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="https://unyleya.edu.br/coreconpe">Unyleya</a></h4>
+                <p>Descontos de até 58% nos cursos de graduação e pós-graduação à distância aos Economistas registrados
+                    e Estudantes credenciados no Corecon-PE.
+                    <br>
+                    <br><b>Graduação - 0800 602 6770</b><br><b>Pós - 0800 604 2210</b><br>
+            </div>
+        </div>
+
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <a class="fancybox" href="https://www.drogasil.com.br/" target="_blank">
+                    <img src="/uploads/drogasil.png" class="media-object" style="width:120px;">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="https://www.drogasil.com.br/">Drogasil</a></h4>
+                <p>Descontos de 15% na compra de medicamentos de marca e de 25% em genéricos.</p>
+            </div>
+        </div>
+
+        <!-- 1ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <a class="fancybox"
+                    href=" https://simulador.qualicorp.com.br/?c_p=entidade_corecon-pe&c_f=banner&c_c=protejaoessencial_pe&utm_source=entidade_corecon-pe&utm_medium=banner&utm_campaign=protejaoessencial_pe&utm_content=julho_2021&utm_termad01"
+                    target="_blank">
+                    <img src="/uploads/Imagem3.png" class="media-object" style="width:120px;">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a
+                        href="http://qualicorp.com.br/qualicorp/ecp/comunidade.do?app=portalqualicorpnovosite">Qualicorp</a>
+                </h4>
+                <p>Os melhores planos de saúde com preços diferenciados
+                    <br>Consulte condições especiais <br><b>(81) 3036-1322</b>
+                </p>
+            </div>
+        </div>
+
+
+        <!-- 3ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <a class="fancybox" data-fancybox-group="gallery" href="/uploads/lateral/cartaz_uninassau.jpg">
+                    <img src="/uploads/convenio_logo_15.png" class="media-object">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="https://pos.uninassau.edu.br/">Faculdade Mauricio de Nassau</a></h4>
+                <p>
+                    Desconto 15% + 15% por aluno indicado (até 100% de desconto)
+                </p>
+            </div>
+        </div>
+
+        <!-- 4ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/logo_livraria_aquarela.png" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="#">Livraria Aquarela</a></h4>
+                <p>RUA Conselheiro Portela, 665 – Loja 18 –
+                    Espinheiro
+                    <br>Desconto de até 10%
+                </p>
+            </div>
+        </div>
+
+        <!-- 6ª Conveniado -->
+
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/skill.png" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="http://www.skill.com.br/">Skill (unidade Graças)</a></h4>
+                <p>Rua da Amizade, 126 – Graças | CEP 52.011-260
+                    <br> Desconto de até 20%
+                </p>
+            </div>
+        </div>
+
+        <!-- 7ª Conveniado -->
+
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/universo.jpg" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="https://universo.edu.br/">Universo</a></h4>
+                <p>Av. Mal. Mascarenhas de Morais, 2169 - Imbiribeira, Recife
+                    <br>Graduação 50%, Pós 25%, EAD 15%
+                </p>
+            </div>
+        </div>
+
+        <!-- 8ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/culturainglesa.jpg" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="http://www.culturainglesape.com.br/">Cultura Inglesa</a></h4>
+                <p>Av. Visc. de Albuquerque, 205 - Madalena, Recife
+                    <br>Desconto de até 20%
+                </p>
+            </div>
+        </div>
+
+        <!-- 9ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/ipog.png" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="https://ipog-pernambuco-instituto-de-pos.negocio.site/">IPOG</a></h4>
+                <p>Av. Mal. Mascarenhas de Morais, 4651 - Imbiribeira, Recife
+                    <br>Pós 2.880,00, CCD 10%, EAD 10%
+                </p>
+            </div>
+        </div>
+
+        <!-- 11ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/hapivida.jpg" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="https://www.hapvida.com.br/site/">Hapvida</a></h4>
+                <p>
+                    Consulte condições especiais <br> <b>(81) 3036-1322</b>
+                    <br><br>
+                </p>
+            </div>
+        </div>
+
+        <!-- 10ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/Logo_AllCare_Site_Corecon.jpg" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="http://www.allcare.com.br/">Unimed</a></h4>
+                <p>Av. Lins Petiti, 140 - Ilha do Leite, Recife
+                    <br>
+                    <a href="https://www.allcare.com.br/coreconpe/">www.allcare.com.br/coreconpe</a><br>
+                    <b>(81) 3003-6600</b>
+                    <br><br>
+                </p>
+            </div>
+        </div>
+
+        <!-- 12ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/bradesco.png" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a
+                        href="https://www.bradescoseguros.com.br/wps/portal/TransforDigital/Site/Produtos/Saude/">Bradesco
+                        Saúde</a></h4>
+                <p>R. Prof. Júlio Ferreira de Melo - Boa Viagem, Recife <br> Consulte condições especiais <br> <b>(81)
+                        3036-1322</b>
+                    <br><br>
+                </p>
+            </div>
+        </div>
+
+        <!-- 13ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/esuda.png" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="http://esuda.com.br/">Faculdade Esuda</a></h4>
+                <p>Rua Bispo Cardoso Ayres - Santo Amaro, Recife <br> Graduação 40%, Pós-graduação 20%
+                    <br><br>
+                </p>
+            </div>
+        </div>
+
+        <!-- 14ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/fullseguros.png" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="https://www.fullseguros.com.br/">Full Seguros</a></h4>
+                <p> Avenida Frei Matias Teves, 280, Sala 702 Empresarial Albert Einstein, Paissandu - Recife -PE <br>
+                    <b>(81) 4141 7383</b> <br><b> (81) 99967 8492</b>
+                    <br><br>
+                </p>
+            </div>
+        </div>
+
+        <!-- 15ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/unicap.jpg" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="http://www.unicap.br/">Universidade Católica De Pernambuco</a></h4>
+                <p> Rua do Principe, 526 Boa Vista - Recife, PE <br> <b>(81) 2119 4016</b>
+                    <br><br>
+                </p>
+            </div>
+        </div>
+
+        <!-- 5ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/nuce.png" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="http://nuceconcursos.com.br/">NUCE</a></h4>
+                <p>R. Joaquim Felipe, 60 - Boa Vista, Recife
+                    <br>Desconto de até 20%
+                </p>
+            </div>
+        </div>
+
+        <!-- 19ª Conveniado -->
+        <!--iv class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenios/recife_office.jpeg" class="media-object" width="120px">
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="https://recifeoffice.com.br/">Recife Office</a></h4>
+    <p>R. João Eugênio de Lima, 143 <br>Boa Viagem, Recife - PE<br>
+    (81) 99875 5623 <br> (81) 99694 2020 <br> (81) 3327 3297
+    <br><br>
+    </p>
+  </div>
+</div>
+
+<!-- 20ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/estacio.jpeg" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="https://estacio.br/">Estácio</a></h4>
+                <p>Endereço: Av. Eng. Abdias de Carvalho, 1678 <br>Madalena, Recife - PE <br>
+                    Cursos presenciais e semipresenciais: 40% de desconto + 5% de desconto da parceria <br>
+                    EAD: 60% de desconto no 1º ano e 50% de desconto no restante do curso.
+                    <br><br>
+                </p>
+            </div>
+        </div>
+
+        <!-- 18ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/fs.jpg" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="https://www.instagram.com/fs_consultoria_saude/">FS Consultoria em
+                        Planos de Saúde</a></h4>
+                <p><a href="mailto:fs.consultoria.saude@gmail.com">fs.consultoria.saude@gmail.com</a><br>
+                    <b>(81) 98412 1347</b> <br><b> (81) 99983 1646</b>
+                    <br><br>
+                </p>
+            </div>
+        </div>
+
+        <!-- 21ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/ufpe.jpg" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="https://sites.ufpe.br/labgrc/grc/">UFPE</a></h4>
+                <p><a href="mailto:especializacao.grc@ufpe.br">especializacao.grc@ufpe.br</a><br>
+                    <b>(81) 99907-7543</b> <br>
+                    Desconto de 8% no Curso de Pós-Graduação Lato Sensu (Especialização) em Governança, Risco e
+                    Conformidade
+                    <br><br>
+                </p>
+            </div>
+        </div>
+
+        <!-- 22ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <a class="fancybox" href=" https://portal.novaroma.edu.br/" target="_blank">
+                    <img src="/uploads/convenios/LOGO VERTICAL  - NOVA ROMA FACULDADE COLOR.png" class="media-object"
+                        style="width:120px;">
+                </a>
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="https://portal.novaroma.edu.br/"> Nova Roma</a></h4>
+                <p>Curso de curta duração ou Graduação com até 50% de desconto
+                    <br>Endereço: Rua Benfica, 352 - Madalena <br><b>WhatsApp: (81) 99927-0003</b>
+                </p>
+            </div>
+        </div>
+        <!-- 16ª Conveniado -->
+        <div class="media col-sm-6 col-xs-12">
+            <div class="media-left">
+                <img src="/uploads/convenios/veneza_marca.png" class="media-object" width="120px">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading"><a href="https://venezawaterpark.com.br/">Veneza Water Park</a></h4>
+                <p> Av. Dr. Cláudio José Gueiros Leite, 10050 - Maria Farinha, Paulista - PE, 53427-000 <br><b> (81)
+                        3436 6363</b>
+                    <br>
+                    <a href="/uploads/convenios/veneza.jpg" target="_blank">Consulte condições especiais</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- 7ª Conveniado 
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_4.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="https://pt-br.facebook.com/cavabistrope/" target="_blank">Ça Va Bistrô</a></h4>
+    <p>R. Cap. Rebelinho, 519 - Pina, Recife - PE
+    <br>
+    <br>
+    Desconto 10% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong></p>
+  </div>
+</div>
+-->
+
+
+
+        <!-- 8ª Conveniado 
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_15.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="http://tapadecuadril.com.br/" target="_blank">Tapa de Cuadril</a></h4>
+    <p>Av. Conselheiro Aguiar, 1089 - Boa Viagem
+    <br>
+    <br>Desconto 20% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong>
+    <br>
+    <br></p>
+</p>
+  </div>
+</div>
+-->
+
+
+
+
+        <!-- 9ª Conveniado 
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_11.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="http://trattoriatoscana.com.br/" target="_blank">Toscana Trattoria</a></h4>
+    <p>R. Pereira da Costa, 80 - Pina, Recife -PE
+    <br>
+    <br>Desconto 10% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong></p>
+    <br>
+    <br>
+  </div>
+</div>
+-->
+
+
+
+
+        <!-- 10ª Conveniado 
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_10.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="https://www.tripadvisor.com.br/Restaurant_Review-g304560-d4534324-Reviews-La_Suica-Recife_State_of_Pernambuco.html" target="_blank">La Suiça</a></h4>
+    <p>R. Gervásio Píres, 485 - Boa Vista, Recife - PE
+    <br>
+    <br>Desconto 10% <strong style="color:green;"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong></p>
+  </div>
+</div>
+-->
+
+
+
+
+        <!-- 11ª Conveniado 
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_9.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="http://www.sbs.com.br/" target="_blank">SBS – Livraria Internacional</a></h4>
+    <p>Av. Conselheiro Rosa e Silva, 1519 - Loja 17 - Aflitos, Recife
+<br>Universidade Católica de Pernambuco -  R. do Príncipe, 526 - Boa Vista, Recife – PE
+<br>
+<br>Desconto 10% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong></p>
+</p>
+  </div>
+</div>
+-->
+
+
+
+
+        <!-- 12ª Conveniado 
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_8.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="http://www.petwayrecife.com.br/" target="_blank">Petway</a></h4>
+    <p>Av. Inácio Monteiro, 284 - Cordeiro, Recife – PE
+    <br>
+    <br>Desconto 10% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br></p>
+  </div>
+</div>
+-->
+
+
+
+
+
+        <!-- 13ª Conveniado 
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_13.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="http://www.fisk.com.br/unidades/recife-madalena" target="_blank">Fisk Inglês e Espanhol</a></h4>
+    <p>R. Comendador Bento Águiar, 77 - Madalena, Recife – PE
+    <br>
+    <br>Desconto 10% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong></p>
+  </div>
+</div>
+-->
+
+
+
+
+        <!-- 14ª Conveniado 
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_12.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="http://www.skill.com.br/recife-casa-amarela" target="_blank">Skill Idiomas</a></h4>
+    <p>Rua das Graças, 354 - Graças, Recife – PE
+      <br>Rua Paula Batista, 572 – Casa Amarela, Recife – PE
+      <br>
+      <br>Desconto 15% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong>
+    </p>
+  </div>
+</div>
+-->
+
+
+
+
+        <!-- 15ª Conveniado 
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_1.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="http://www.barbeariatrois.com.br/" target="_blank">Barbearia Trois</a></h4>
+    <p>Rua das Graças, 354 - Graças, Recife – PE
+      <br>Av. Conselheiro Aguiar, 857 - Boa Viagem, Recife – PE
+      <br>
+      <br>Desconto 10% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong>
+    </p>
+  </div>
+</div>
+-->
+
+
+
+
+        <!-- 16ª Conveniado 
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_7.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="https://www.instagram.com/botecobapp/">Boteco Bapp - Bar e Pestiscaria</a></h4>
+    <p>R. Sebastião Alves, 264 - Tamarineira, Recife – PE
+    <br><br>Desconto 10% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong>
+    </p>
+  </div>
+</div>
+-->
+
+
+
+
+        <!-- 17ª Conveniado 
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_17.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="https://www.facebook.com/domcaiorestaurante">Dom Caio</a></h4>
+    <p>R. Professor Antônio Coelho 923, Cidade Universitária -  Recife, PE
+    <br><br>Desconto  7% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong>
+    </p>
+  </div>
+</div>
+-->
+
+
+
+
+        <!-- 18ª Conveniado
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_18.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="http://srchopp.com.br/">Sr. Chopp</a></h4>
+    <p>Rua da Angustura, 62, Aflitos – Recife, PE
+    <br><br>Desconto de até 10% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong>
+    </p>
+  </div>
+</div>
+-->
+
+
+
+
+
+        <!-- 19ª Conveniado 
+    
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_19.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="https://pt-br.facebook.com/tasquinhadotio560/">Tasquinha do Tio</a></h4>
+    <p>Av. Boa Viagem, 560, Imbiribeira – Recife, PE
+    <br><br>Desconto de até 10% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong>
+    </p>
+  </div>
+</div>
+-->
+
+
+
+
+
+        <!-- 20ª Conveniado    
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_20.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="https://pt-br.facebook.com/visagemodaoptica/">Visage Moda Óptica</a></h4>
+    <p>Av. Conselheiro Rosa e Silva, 1460, Graça -  Recife, PE
+    <br><br>Desconto de 15% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong>
+    </p>
+  </div>
+</div>
+-->
+
+
+
+
+
+        <!-- 21ª Conveniado    
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_21.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="http://coqueiralpark.com/">Coqueiral Park</a></h4>
+    <p>Av. Lígia Gomes, S/N, Ouro Preto – Olinda - PE
+    <br><br>Desconto de até 50% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong>
+    </p>
+  </div>
+</div>
+-->
+
+
+
+
+
+        <!-- 22ª Conveniado 
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_22.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="http://www.supereacademia.com.br/">Supère Academia</a></h4>
+    <p>Rua ministro Nelson Hungria, 623, Boa Viagem -  Recife, PE
+    <br><br>Desconto de 25% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong>
+    </p>
+  </div>
+</div>
+-->
+
+
+
+
+
+        <!-- 23ª Conveniado
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_23.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="https://pt-br.facebook.com/clubetf3/">TF3 Clube de Treinamento</a></h4>
+    <p>Rua Barão de Água Branca 438, Imbiribeira – Recife, PE
+    <br><br>Desconto de 40% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong>
+    </p>
+  </div>
+</div>
+ -->
+
+
+
+
+        <!-- 24ª Conveniado 
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_24.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="http://www.plusderme.com.br/">Plus Derme </a></h4>
+    <p>Av. Conselheiro Rosa e Silva 1460, Aflitos – Recife, PE
+    <br>
+    Av. Conselheiro Aguiar, Boa Viagem – Recife, PE
+    <br>Desconto de 10% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong>
+    </p>
+  </div>
+</div>
+-->
+
+
+
+
+
+        <!-- 25ª Conveniado 
+<div class="media col-sm-6 col-xs-12">
+  <div class="media-left">
+    <img src="/uploads/convenio_logo_25.jpg" class="media-object" >
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="https://www.instagram.com/botecobapp/">Mr. Holmes Barbearia</a></h4>
+    <p>Rua Cônego Romeu, 220 , Setúbal – Recife, PE
+    <br><br>Desconto de até 10% <strong style="color:green"><a href="https://mobi4cash.com.br/" style="color: green">via Mobi4Cash</a></strong>
+    </p>
+  </div>
+</div>
+-->
+
+
+
+
+
+    </div>
+</div>
+</div>
+
+
+
+<script type="text/javascript" src="<?php echo BASE_URL; ?>/assets/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>/assets/fancybox/jquery.fancybox.css?v=2.1.5"
+    media="screen" />
+
+<script type="text/javascript">
+
+
+
+    jQuery(document).ready(function() {
+
+
+        $('.fancybox').fancybox({
+
+            'padding': 0
+
+        });
+
+        $('.fancybox-media')
+            .attr('rel', 'gal')
+            .fancybox({
+                openEffect: 'none',
+                closeEffect: 'none',
+                prevEffect: 'none',
+                nextEffect: 'none',
+
+                arrows: false,
+                helpers: {
+                    media: {},
+                    buttons: {}
+                }
+            });
+
+        $('.fancyboxServico').fancybox({
+            'width': 960,
+            'height': 500,
+            'padding': 0,
+            'type': 'iframe',
+            'autoScale': 'false'
+        });
+
+    }); //ready
+
+</script>
+
+<!-- Lateral -->
+<div class="col-sm-3" style="padding-top: 20px">
+    <div class="row">
+
+        <!-- chamando a barra laterial dos conteúdos -->
+        <?php
+require "lateralcorec.php";
+?>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+
+
+        <div class="col-sm-9 col-xs-12"
+            style="background-color: #fff; border-radius: 10px 10px; margin-top: 15px; border:1px solid #DCDCDC; padding-bottom: 30px ">
+
+        </div>
+    </div>
+    <hr style="margin-top: 55px; margin-bottom:80px">

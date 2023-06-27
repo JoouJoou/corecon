@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="kUNVqpF7oryT8Jw-eqh2Kbouicf5cMzapmdaS_t8Uq4" />
+<div class="container " style="padding: 0px;">
+    <div class="row">
+        <div class="col-sm-12">
+            <img class="mobileimg" src="assets/imagens/comunicado.png" />
+            <div class="slide-div">
+                <style>
+                    .modal:target {
+                        opacity: 1;
+                        pointer-events: auto;
+                    }
+
+                    .modal>div {
+                        max-width: 900px;
+                        position: relative;
+                        margin: 10% auto;
+                        padding: 15px 20px;
+                        background: #fff;
+                    }
+
+
+                    .fechar {
+                        position: absolute;
+                        width: 30px;
+                        right: -15px;
+                        top: -20px;
+                        text-align: center;
+                        line-height: 30px;
+                        margin-top: 5px;
+                        background: #ff4545;
+                        border-radius: 50%;
+                        font-size: 16px;
+                        color: #8d0000;
+                    }
+                </style>
+
+
+
+                <!-- fancyBox -->
+                <script type="text/javascript"
+                    src="<?php echo BASE_URL; ?>/assets/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+                <link rel="stylesheet" type="text/css"
+                    href="<?php echo BASE_URL; ?>/assets/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+                <script type="text/javascript">
+
+
+
+                    jQuery(document).ready(function() {
+
+
+                        $('.fancybox').fancybox({
+
+                            'padding': 0
+
+                        });
+
+                        $('.fancybox-media')
+                            .attr('rel', 'gal')
+                            .fancybox({
+                                openEffect: 'none',
+                                closeEffect: 'none',
+                                prevEffect: 'none',
+                                nextEffect: 'none',
+
+                                arrows: false,
+                                helpers: {
+                                    media: {},
+                                    buttons: {}
+                                }
+                            });
+
+                        $('.fancyboxServico').fancybox({
+                            'width': 960,
+                            'height': 500,
+                            'padding': 0,
+                            'type': 'iframe',
+                            'autoScale': 'false'
+                        });
+
+                    }); //ready
+
+                </script>
+
+
+
+                <?php
+require "uploads/slides/2slidezoom.php";
+?>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="clear: both;"></div>
+
+<div class="container">
+    <div class="row">
+        <!--
+<div class="col-sm-9 acesso_econ">
+<a href="http://coreconpe.gov.br/pgto">PAGAMENTO COM CARTAO DE CRÉDITO E EMISSÃO DE BOLETO</a>
+</div>
+
+<div class="col-sm-2 acesso_social" style="float: right;">
+<a href="https://www.facebook.com/CoreconPE/?fref=ts" target="_blank"><img src="assets/imagens/facebook.png"></a>
+<a href="https://twitter.com/PECorecon" target="_blank"><img src="assets/imagens/twitter.png"></a>
+</div> -->
+        <div style="clear: both;"></div>
+        <!-- Ultimas Notícias -->
+        <div class="col-sm-9"
+            style="background-color: #fff; border-radius: 10px 10px; margin-top: 15px; border:1px solid #DCDCDC; padding-bottom: 30px ">
+
+            <div class="col-sm-12" style="background-color: #fff; padding-top: 15px">
+                <h4>Últimas Notícias</h4>
+                <br><br>
+
+
+
+                <div id="carousel">
+                    <div id="slides">
+                        <ul>
+                            <?php foreach($lista_carrossel as $carrosel):?>
+                            <li class="slide">
+                                <div class="nw_ft">
+                                    <img style="float:left"
+                                        src="<?php echo BASE_URL; ?>/uploads/noticias/<?php echo $carrosel['imagem']; ?>">
+                                </div>
+                                <div class="nw_tit">
+                                    <font style="font-size: 18px;">
+                                        <?php echo utf8_encode($carrosel['titulo']); ?>
+                                    </font><br>
+                                </div>
+                                <div class="nw_txt">
+                                    <?php echo '<a href=ultimasnot_geral/completa?id='.$carrosel['id']. '>'; ?>
+                                    <?php echo Helpers::limitaPalavras(utf8_encode($carrosel['texto']),43); ?></a>
+                                </div>
+
+                            </li>
+                            <?php endforeach;?>
+                            <!-- fim -->
+
+
+
+                            <!-- fim -->
+
+                        </ul>
+                    </div>
+                    <div class="btn-bar">
+                        <div id="buttons">
+                            <a id="prev" href="#">
+                                << /a>
+                                    <a id="next" href="#">></a>
+                        </div>
+                        <a href="<?php echo BASE_URL; ?>/ultimasnot_geral" style="float: right;">Mais notícias</a>
+                    </div>
+                </div>
+
+
+                <script>
+                    $(document).ready(function() {
+                        //rotation speed and timer
+                        var speed=9000;
+
+                        var run=setInterval(rotate, speed);
+                        var slides=$('.slide');
+                        var container=$('#slides ul');
+                        var elm=container.find(':first-child').prop("tagName");
+                        var item_width=container.width();
+                        var previous='prev'; //id of previous button
+                        var next='next'; //id of next button
+                        slides.width(item_width); //set the slides to the correct pixel width
+                        container.parent().width(item_width);
+                        container.width(slides.length*item_width); //set the slides container to the correct total width
+                        container.find(elm+':first').before(container.find(elm+':last'));
+                        resetSlides();
+
+
+                        //if user clicked on prev button
+
+                        $('#buttons a').click(function(e) {
+                            //slide the item
+
+                            if (container.is(':animated')) {
+                                return false;
+                            }
+                            if (e.target.id==previous) {
+                                container.stop().animate({
+                                    'left': 0
+                                }, 1500, function() {
+                                    container.find(elm+':first').before(container.find(elm+':last'));
+                                    resetSlides();
+                                });
+                            }
+
+                            if (e.target.id==next) {
+                                container.stop().animate({
+                                    'left': item_width*-2
+                                }, 1500, function() {
+                                    container.find(elm+':last').after(container.find(elm+':first'));
+                                    resetSlides();
+                                });
+                            }
+
+                            //cancel the link behavior            
+                            return false;
+
+                        });
+
+                        //if mouse hover, pause the auto rotation, otherwise rotate it    
+                        container.parent().mouseenter(function() {
+                            clearInterval(run);
+                        }).mouseleave(function() {
+                            run=setInterval(rotate, speed);
+                        });
+
+
+                        function resetSlides() {
+                            //and adjust the container so current is in the frame
+                            container.css({
+                                'left': -1*item_width
+                            });
+                        }
+
+                    });
+                    //a simple function to click next link
+                    //a timer will call this function, and the rotation will begin
+
+                    function rotate() {
+                        $('#next').click();
+                    }
+                </script>
+
+                <div id="fb-root"></div>
+                <script>(function(d, s, id) {
+                        var js, fjs=d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)) return;
+                        js=d.createElement(s); js.id=id;
+                        js.src="//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.10";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+
+
+
+                <div style="clear: both; "></div>
+
+                <hr style="border: 1px dashed #cecece">
+
+
+                <!--  
+    ======================= 
+    Banners da HOME 
+    =====================
+    -->
+
+                <div class="col-sm-6 col-md-6 boxstyle ">
+                    <div class="titbox">XI Gincana Pernambucana</div>
+                    <p>
+                        <a href="https://www.coreconpe.gov.br/gincana_2023"><img
+                                src="https://coreconpe.gov.br/uploads/gincana.jpg" class="imgusedcard"
+                                style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-6 boxstyle ">
+                    <div class="titbox">RECRED</div>
+                    <p>
+                        <a href="https://www.coreconpe.gov.br/ultimasnot_geral/completa?id=262" target="_blank"><img
+                                src="uploads/RECRED.jpg" class="imgusedcard"
+                                style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-6 boxstyle ">
+                    <div class="titbox">Anuidades 2023</div>
+                    <p>
+                        <a href="https://coreconpe.gov.br/pgto" target="_blank"><img src="uploads/anuidade2023b.jpg"
+                                class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-6 boxstyle ">
+                    <div class="titbox">Denuncie Irregularidades</div>
+                    <p>
+                        <a href="https://www.coreconpe.gov.br/ma_fiscalizacao"><img src="uploads/denunciaf.jpg"
+                                class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+                    </p>
+                </div>
+                <div>
+                    <div class="col-sm-6 col-md-6 boxstyle ">
+                        <div class="titbox">Guia de Orientação Profissional</div>
+                        <p>
+                            <a href="https://app.isend.com.br/iSend/external/magazine?encrypt=51069C7C517B30E6DCFCCA4AD8AE688B2FD4C4D445709F9342A535398CCEF12B"
+                                target="_blank"><img src="uploads/botao-site.png" class="imgusedcard"
+                                    style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-md-6 boxstyle ">
+                        <div class="titbox">Clube de Benefícios</div>
+                        <p>
+                            <a href="https://www.coreconpe.gov.br/clubedebeneficios" target="_blank"><img
+                                    src="uploads/clubedebeneficiomini.jpg" class="imgusedcard"
+                                    style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-md-6 boxstyle ">
+                        <div class="titbox"> Credenciamento de Estudante</div>
+                        <p>
+                            <a href="https://www.coreconpe.gov.br/me_credenciamento" target="_blank"><img
+                                    src="uploads/miniatura_credenciamento.jpeg" class="imgusedcard"
+                                    style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-md-6 boxstyle ">
+                        <div class="titbox">Boletim</div>
+                        <p>
+                            <a href="https://coreconpe.gov.br/boletim" target="_blank"><img
+                                    src="uploads/boletim/boletim.jpg" class="imgusedcard"
+                                    style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-md-6 boxstyle ">
+                        <div class="titbox">Transparência e Prestação de Contas</div>
+                        <p>
+                            <a href="https://coreconpe.gov.br/transparencia/" target="_blank"><img
+                                    src="uploads/transparencia_e_prestacao_de_contas.jpg" class="imgusedcard"
+                                    style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-md-6 boxstyle ">
+                        <div class="titbox">Sistema de Cadastro Nacional de Peritos em Economia</div>
+                        <p>
+                            <a href="http://www.coreconpe.gov.br/mc_cadastro_nperitos" target="_blank"><img
+                                    src="uploads/sistema_cadastro.png" class="imgusedcard" width="320"></a>
+                        </p>
+                    </div>
+
+
+
+
+
+
+                    <!--
+       <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Informativo </div>
+        <p>
+        <a href="https://www.coreconpe.gov.br/ma_informativo" target="_blank"><img src="uploads/miniatura.info.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+        <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Desafio Quero Ser Economista</div>
+        <p>
+        <a href="http://www.desafioquerosereconomista.org.br/" target="_blank"><img src="uploads/queroser.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+       	<div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Informativo </div>
+        <p>
+        <a href="https://www.coreconpe.gov.br/ma_informativo" target="_blank"><img src="uploads/miniatura.info.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+       	<!--div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Eleições 2022</div>
+        <p>
+        <a href="https://coreconpe.gov.br/eleicoes2022/" target="_blank"><img src="uploads/economista22.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+		<div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">XXVII Simpósio Nacional dos Conselhos de Economia</div>
+        <p>
+        <a href="https://www.sympla.com.br/evento/since-2022/1594152" target="_blank"><img src="uploads/since2022.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Corecon-PE na Mídia</div>
+        <p>
+        <a href="https://www.coreconpe.gov.br/ma_corecon_midia"><img src="uploads/midia.png" class="imgusedcard text-center" height="165px"></a>
+        </p>
+        </div>
+       	<div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Informativo </div>
+        <p>
+        <a href="https://www.coreconpe.gov.br/ma_informativo" target="_blank"><img src="uploads/miniatura.info.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+		<div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">XXXI ENE - Encontro de Entidades de Economia do Nordeste 2022</div>
+        <p>
+        <a href="https://www.even3.com.br/xxxiene2022/" target="_blank"><img src="uploads/entidadesdeeconomia.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+	   <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox"> Dia do Economista 2022</div>
+        <p>
+        <a href="https://www.sympla.com.br/dia-do-economista-2022__1648690" target="_blank"><img src="uploads/diadoeconomista.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div> 
+	   <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">XVI Prêmio Dirceu Pessoa</div>
+        <p>
+        <a href="https://www.coreconpe.gov.br/dirceu_pessoa"><img src="https://coreconpe.gov.br/uploads/dirceu_pessoa/2022/miniatura_dirceu.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+	     <!--<div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">CoreconPE Oportunidades</div>
+        <p>
+        <a href="https://coreconpe.gov.br/oportunidades/" target="_blank"><img src="uploads/miniatura_site_oportunidades.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+	    <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Cursos</div>
+        <p>
+        <a href="https://www.sympla.com.br/produtor/coreconpe" target="_blank"><img src="uploads/cursos.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        <div class="col-sm-6 col-md-6 boxstyle" style="height:300px !important;">
+        <div class="titbox-twt">Twitter</div>
+        <p>
+
+        <div class="tw" >
+        <a class="twitter-timeline" href="https://twitter.com/pecorecon" data-width="100%" data-height="220" ></a>
+
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        </p>
+        </div>
+		<div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox"> 9º Gincana Pernambucana de Economia</div>
+        <p>
+        <a href="https://www.coreconpe.gov.br/ultimasnot_geral/completa?id=182" target="_blank"><img src="uploads/BANNER_site_gincana.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div> 
+		<div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox"> Credenciamento de Estudante</div>
+        <p>
+        <a href="https://www.coreconpe.gov.br/me_credenciamento" target="_blank"><img src="uploads/miniatura_credenciamento.jpeg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>		
+        -->
+                    <!--
+		<div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">COAF</div>
+        <p>
+        <a href="https://coreconpe.gov.br/ultimasnot_geral/completa?id=201" target="_blank"><img src="uploads/noticias/coaf.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>	
+        
+        <!--
+        <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Eleições 2020</div>
+        <p>
+        <a href="https://coreconpe.gov.br/eleicoes2020/" target="_blank"><img src="uploads/eleicoes2020.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+        -->
+
+                    <!--
+        <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Sorteio | Notebook</div>
+        <p>
+        <a href="https://coreconpe.gov.br/sorteio_notebook" target="_blank"><img src="uploads/sorteio_notebook/sorteio_notebook_miniatura.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+        -->
+
+                    <!--
+        <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">XIV Prêmio Dirceu Pessoa</div>
+        <p>
+        <a href="https://www.coreconpe.gov.br/dirceu_pessoa"><img src="https://coreconpe.gov.br/uploads/dirceu_pessoa/banner_pg_inicial_14dirceu.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+        -->
+
+                    <!--
+        <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">COAF</div>
+        <p>
+        <a href="https://www.coreconpe.gov.br/coaf" target="_blank"><img src="uploads/noticias/coaf.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+        -->
+
+                    <!--
+    	<div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Palestra e Lançamento de Livro</div>
+        <p>
+        <a href="https://www.sympla.com.br/palestra-e-lancamento-do-livro-diarios-intermitentes-do-economista-celso-furtado__671177" target="_blank"><img src="uploads/celsofurtado.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+        -->
+
+                    <!--
+        <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Fotos</div>
+        <p>
+        <a href="https://coreconpe.gov.br/cbe2019" target="_blank"><img src="uploads/cbe2019/miniatura_site.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+        -->
+
+                    <!--
+    	<div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Eleições 2019</div>
+        <p>
+        <a href="https://coreconpe.gov.br/eleicoes2019/" target="_blank"><img src="uploads/eleicoes2019.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+        -->
+
+                    <!--
+        <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Evento - Dia do Economista</div>
+        <p>
+        <a href="https://coreconpe.gov.br/diadoeconomista2019" target="_blank"><img src="uploads/diadoeconomista/2019/miniatura_diadoeconomista2019.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+        -->
+
+                    <!--
+	<div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Premiação</div>
+        <p>
+        <a href="https://www.coreconpe.gov.br/gincana_ganhadores" target="_blank"><img src="uploads/gincana2019/miniatura.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+        -->
+
+                    <!--
+	<div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Premiação</div>
+        <p>
+        <a href="https://www.coreconpe.gov.br/dirceupessoa_ganhadores" target="_blank"><img src="uploads/dirceu_pessoa/dirceupessoa2019/banner.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+        -->
+
+                    <!--
+        <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">XXIII Congresso Brasileiro de Economia</div>
+        <p>
+        <a href="http://www.cbe2019.com.br/"><img src="https://coreconpe.gov.br/uploads/cbe2019.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+        -->
+
+                    <!--
+	<div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Informativo</div>
+        <p>
+        <a href="uploads/informativo_09_junhojulho2019.pdf" target="_blank"><img src="uploads/informativo_09_miniatura.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+        -->
+
+                    <!--
+   	<div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Carta de Imperatriz</div>
+        <p>
+        <a href="https://coreconpe.gov.br/ultimasnot_geral/completa?id=107"><img src="uploads/noticias/107_capa.jpg" class="imgusedcard" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>
+	-->
+
+                    <!-- Quinto Banner  
+        <div class="col-sm-6 col-md-6 boxstyle">
+        <div class="titbox" style="font-size:15px;">5ª Semana Nacional de Educação Financeira</div>
+        <p>
+        <a data-toggle="modal" data-target=".exampleModalCenter"><img src="uploads/5semana.jpg" class="imgusedcard" style="max-width:330px; max-height:180px;"></a>
+        </p>
+        </div>
+        -->
+
+                    <!-- Quinto Banner 
+        <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">VII ENPECON</div>
+        <p>
+        <a href="https://coreconpe.gov.br/enpecon/viienpecon/" target="_blank"><img src="uploads/viienpecon-banner.jpg" class="imgusedcard" style="max-width:330px; max-height:180px;"></a>
+        </p>
+        </div>
+      -->
+
+                    <!-- Sexto Banner 
+        <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Como Investir em Ações 4 - Petrolina</div>
+        <p>
+        <a href="https://www.sympla.com.br/como-investir-em-acoes-4__386148" target="_blank"><img src="uploads/acoes4banner.jpg" class="imgusedcard" style="max-width:330px; max-height:180px;"></a>
+        </p>
+        </div>
+        -->
+
+                    <!-- Setimo Banner 
+        <div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Perícia Previdenciária Atuarial</div>
+        <p>
+        <a href="https://www.e-inscricao.com/cofecon/atuarial-recife" target="_blank"><img src="uploads/percia4.jpg" class="imgusedcard text-center" style="max-width:330px; max-height:180px; margin-top: -10px;"></a>
+        </p>
+        </div>   
+        -->
+
+
+
+                    <!-- Terceiro Banner
+      	<div class="col-sm-6 col-md-6 boxstyle ">
+        <div class="titbox">Novos Economistas</div>
+        <p>
+        <a class="fancybox" data-fancybox-group="gallery" href="<?php echo BASE_URL; ?>/uploads/com.jpg">
+        <img src="uploads/com-2.jpg" class="imgusedcard" style="max-width:330px; max-height:180px;">
+        </a>
+        </p>
+        </div>
+        -->
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ========
+Barra Lateral 
+========-->
+
+
+        <div class="col-sm-3" style="padding-top: 20px">
+            <div class="row">
+
+                <!-- Chamando a barra lateral dos conteúdos -->
+                <?php
+require "lateralcorec.php";
+?>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<hr style="margin-top: 55px; margin-bottom:80px">
+
+
+
+
+
+<div class="col-sm-12">
+
+    <a href="/uploads">
+        <img src="/uploads/g" alt="" class="img-responsive col-sm-10 col-xs-10"
+            style="padding: 0px; width: 60%; margin-left: 20% ">
+    </a>
+
+</div>
+-->
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+<!--  AVISO INICIAL-->
+<script type="text/javascript">
+	//$('#modalPopup').modal('show')
+</script>
+
+
+
+
+<!-- Pop-up - Esta parte do código é para que seja adicionada a imagem do aviso -->
+
+<script type="text/javascript">
+
+    $(document).ready(function() {
+
+        var ads={
+            'ad1': {
+                'type': 'html',
+                'html': '<div class="col-sm-12 col-md-12 "> <a href="mailto:atendimento@coreconpe.gov.br"> <img src="uploads/popup_funcionamento_abr.jpg" class="img-fluid"> </a> </div>'
+            },
+
+
+        }
+
+        $('body').adPopupPro({
+            ads: ads,
+            width: 450,
+            // height: 500,
+            overlay_opacity: 0.7,
+            overlay_color: 'dark',
+            mobile: true,
+        });
+    });
+
+</script>
+
+
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143450656-1"></script>
+<script>
+    window.dataLayer=window.dataLayer||[];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-143450656-1');
+</script>
+
+
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="col">
+                    <img src="uploads/pericia2.jpg" class="img-fluid" style="max-width: 150px; max-height:688px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" style="background-color: rgba(0, 0, 0, 0);">
+        <div class="modal-content">
+            <div class="col-lg-12">
+                <a href="http://www.semanaenef.gov.br/" target="_blank">
+                    <img src="uploads/5semanagrande.jpeg" class="img-fluid" style="max-width: 150%; max-height:150%;">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
