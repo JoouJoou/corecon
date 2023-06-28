@@ -1,0 +1,14 @@
+<main class="news">
+    <h3>Últimas Notícias</h3>
+
+    <?php foreach ($registro_list as $Usuario): ?>
+
+    <h4><?php echo utf8_encode($Usuario['titulo']); ?></h4>
+    <img src="<?php echo BASE_URL; ?>/uploads/noticias/<?php echo $Usuario['imagem']; ?>" alt="news" />
+
+	<p style="border-bottom: 1px dashed #ccc; padding-bottom: 50px; line-height: 40px">
+	<?php echo '<a href=ultimasnot_geral/completa?id='.$Usuario['id']. '>'; ?>
+	<?php echo Helpers::limitaPalavras(utf8_encode($Usuario['texto']),43); ?></a>
+	</p>
+ 
+    <?php endforeach; ?>

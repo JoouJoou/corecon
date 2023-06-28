@@ -1,0 +1,68 @@
+.news {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 3rem;
+}
+.news h1 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 3rem;
+}
+
+.news-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.new {
+  width: 45rem;
+  display: flex;
+  height: 18rem;
+  gap: 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.new img {
+  width: 40%;
+  height: 100%;
+  border-radius: 2rem;
+}
+.new-texts {
+  padding-top: 1rem;
+  text-align: start;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.news h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.news p {
+  font-size: 1.2rem;
+}
+
+.new:hover {
+  transform: scale(105%);
+  transition-property: transform;
+  -webkit-box-shadow: -1px -1px 24px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 24px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 24px 0px rgba(0, 0, 0, 0.75);
+}
+
+a {
+  color: black;
+}

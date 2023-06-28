@@ -140,7 +140,9 @@ require "uploads/slides/2slidezoom.php";
                             <?php endforeach;?>
                             <!-- fim -->
 
-
+<p>
+    <?php echo Helpers::limitaPalavras(utf8_encode($carrosel['texto']),43); ?>
+</p>
 
                             <!-- fim -->
 
