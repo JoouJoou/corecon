@@ -1,0 +1,35 @@
+main {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 3rem;
+}
+main h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+main img {
+  width: 100%;
+  height: 50rem;
+}
+.texts {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.icons {
+  width: 3rem;
+  height: 3rem;
+}
+.regulamento {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}

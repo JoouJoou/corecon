@@ -1,0 +1,43 @@
+main {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 3rem;
+}
+
+main h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.gincana-containers {
+  display: flex;
+  width: 80%;
+  gap: 5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gincana {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.gincana-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  gap: 1rem;
+}
+.gincana-content:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+}
