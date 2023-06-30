@@ -317,23 +317,3 @@ footer .divisor {
     height: 3.5rem;
   }
 }
-
-#overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.5
-  ); /* Define a cor de fundo e a transparência */
-  z-index: 999; /* Certifique-se de que o overlay esteja acima de outros elementos */
-  display: none; /* Começa oculto por padrão */
-}
-
-#menuToggle input:checked ~ #overlay {
-  display: block; /* Exibe o overlay quando o menu hamburguer está ativado */
-}

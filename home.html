@@ -32,7 +32,6 @@
 
 <body>
 	<div>
-		<div class="overlay"></div>
 		<header>
 			<div class="navbar">
 				<img src="uploads/logo-c.png" class="main-logo" alt="corecon-logo" />
@@ -165,7 +164,7 @@
 
 		</header>
 
-		<!-- <main>
+		<main>
 			<div class="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
@@ -197,10 +196,25 @@
 					<img src="./uploads/icons/user.svg" class="icons" />
 					<h2>Consulta cadastral</h2>
 				</a>
+				<a href="#popup" style="color: black;" class="service">
+					<img src="./uploads/icons/clipboard.svg" class="icons" />
+					<h2>Serviços</h2>
+				</a>
+				<div id="popup" class="overlay">
+					<div class="popup">
+						<h2>Serviços:</h2>
+						<a class="close" href="#">&times;</a>
+						<div class="content">
+							<a href="<?php echo BASE_URL; ?>/mg_formularios"><button>Formulários</button></a>
+							<a href="<?php echo BASE_URL; ?>/mg_fale_conosco"><button>Fale conosco</button></a>
+						</div>
+					</div>
+				</div>
+
 			</section>
 			<section class="news-container">
 				<div class="news">
-					<?php foreach($lista_carrossel as $carrosel):?>
+					<!-- <?php foreach($lista_carrossel as $carrosel):?>
 					<a class="new" href=ultimasnot_geral/completa?id='.$carrosel[' id']. '>' ; ?>
 						<img src="<?php echo BASE_URL; ?>/uploads/noticias/<?php echo $carrosel['imagem']; ?>"
 							alt="news" />
@@ -211,10 +225,11 @@
 							<?php echo '<a href=ultimasnot_geral/completa?id='.$carrosel['id']. '>'; ?>
 							<?php echo Helpers::limitaPalavras(utf8_encode($carrosel['texto']),43); ?>
 					</a>
+					<?php endforeach;? >-->
 				</div>
 				</a>
 	</div>
-	<?php endforeach;?>
+
 	</div>
 
 
@@ -223,7 +238,7 @@
 		<h2>Mais notícias...</h2>
 	</a>
 	</section>
-	<section class="beneficios">
+	<!-- <section class="beneficios">
 		<h1><a href="<?php echo BASE_URL; ?>/clubedebeneficios" style="color: black">Clube de benefícios</a>
 		</h1>
 		<div class="beneficiarios-container">
@@ -252,8 +267,8 @@
 				<img src="/uploads/convenios/extra-com-br-logo-3.png" alt="">
 			</a>
 		</div>
-	</section>
-	</main> -->
+	</section> -->
+	</main>
 	</div>
 
 	<footer>

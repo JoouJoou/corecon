@@ -5,8 +5,6 @@ main {
 }
 .carousel {
   position: relative;
-  width: 100%;
-  height: 100%;
   overflow: hidden;
 }
 
@@ -66,7 +64,7 @@ main {
 }
 
 .services {
-  margin: 5rem auto 0 auto;
+  margin: 0rem auto 0 auto;
   width: 90%;
   display: flex;
   flex-wrap: wrap;
@@ -79,6 +77,7 @@ main {
 }
 
 .service {
+  width: 28rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -189,4 +188,108 @@ main {
 .beneficiarios-home img {
   width: 100%;
   height: 100%;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 40vh auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  overflow-y: hidden;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #0b2c50;
+}
+.popup .content {
+  max-height: 30%;
+  overflow-y: hidden;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.popup button {
+  font-family: "Poppins", sans-serif;
+  width: 15rem;
+  border: none;
+  border-radius: 10rem;
+  height: 4rem;
+  background-color: none;
+  font-size: 1.5rem;
+}
+.popup button:hover {
+  background-color: #d8f4f4;
+  cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+  .popup {
+    width: 70%;
+  }
+  .services {
+    font-size: 1.2rem;
+  }
+  .icons {
+    width: 3rem;
+  }
+}
+@media screen and (max-width: 325px) {
+  .popup {
+    font-size: 1.5rem;
+  }
+  .popup button {
+    font-family: "Poppins", sans-serif;
+    width: 10rem;
+    font-size: 1.3rem;
+  }
+  .icons {
+    width: 2rem;
+  }
 }
