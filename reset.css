@@ -145,3 +145,6 @@ a:visited {
   text-decoration: none;
   color: black;
 }
+strong {
+  font-weight: bold;
+}
