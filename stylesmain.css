@@ -7,11 +7,10 @@ main {
 }
 main h1 {
   font-size: 3rem;
-  font-weight: bold;
   font-family: "Merriweather Sans", sans-serif;
 }
 main h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 main h3 {
   font-size: 2rem;
@@ -20,5 +19,33 @@ main h4 {
   font-size: 1.5rem;
 }
 main p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+strong {
+  font-weight: bold;
+}
+.title {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: #dbdedb;
+}
+.main-title {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.main-title h1 {
+  width: 80%;
+  margin: 0 auto;
+}
+.title h2 {
+  width: 80%;
+  margin: 0 auto;
 }
