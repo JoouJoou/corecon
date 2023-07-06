@@ -49,3 +49,30 @@ strong {
   width: 80%;
   margin: 0 auto;
 }
+
+.navigation {
+  margin: 1rem auto 1rem auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.navigation li {
+  width: 16rem;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 5rem;
+  gap: 1rem;
+}
+.navigation a {
+  color: rgb(0, 0, 189);
+}
+.navigation li:hover {
+  background-color: #a9a9a9;
+  cursor: pointer;
+}

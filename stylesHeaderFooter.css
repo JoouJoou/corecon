@@ -272,6 +272,14 @@ footer .divisor {
 }
 
 @media screen and (max-width: 850px) {
+  header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+  }
+  main {
+    margin-top: 10rem;
+  }
   #menuToggle {
     display: block;
   }

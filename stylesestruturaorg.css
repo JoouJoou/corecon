@@ -1,0 +1,15 @@
+section {
+  width: 100%;
+}
+.estru-content {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+}
+.organog {
+  align-items: center;
+}
+
+section ul {
+  list-style-type: disc;
+}
