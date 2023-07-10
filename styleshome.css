@@ -4,7 +4,6 @@ main {
   gap: 3rem;
 }
 .carousel {
-  position: relative;
   overflow: hidden;
 }
 
