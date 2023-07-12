@@ -21,10 +21,17 @@ function autoSlide() {
   changeSlide(1);
 }
 
-// Defina o intervalo de tempo em milissegundos (por exemplo, 3000 para 3 segundos)
 const intervalo = 3000;
 
-// Inicia a passagem automática do carrossel
 setInterval(autoSlide, intervalo);
 
 showSlide();
+
+function togglescrollmain() {
+  const bodyElement = document.querySelector("body");
+  if (bodyElement.style.overflow === "hidden") {
+    bodyElement.style.overflow = "auto";
+  } else {
+    bodyElement.style.overflow = "hidden";
+  }
+}

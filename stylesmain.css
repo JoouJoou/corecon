@@ -77,3 +77,11 @@ strong {
   background-color: #a9a9a9;
   cursor: pointer;
 }
+table {
+  width: 70%;
+  margin: 1rem auto 1rem auto;
+  border: 0.1rem solid black;
+}
+table td {
+  border: 0.1rem solid black;
+}
