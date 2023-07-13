@@ -18,10 +18,10 @@ section {
   border-radius: 1rem;
 }
 .midia-content {
-  width: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
-  gap: 30%;
+  gap: 2rem;
 }
 @media screen and (max-width: 850px) {
   section {
@@ -49,4 +49,11 @@ section {
   .midia img {
     width: 100%;
   }
+}
+
+.divisor {
+  width: 80%;
+  margin: 0 auto;
+  height: 0.1rem;
+  background-color: #c8c8c8;
 }
