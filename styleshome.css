@@ -58,6 +58,36 @@ main {
   right: 10px;
 }
 
+.highlights {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.highlights-option {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.highlights-option img {
+  width: 16rem;
+  height: 20rem;
+}
+.highlights-option button {
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #1a6cc4;
+  color: white;
+}
+.highlights-option button:hover {
+  cursor: pointer;
+}
+
 .icons {
   width: 5rem;
 }

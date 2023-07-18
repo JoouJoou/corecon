@@ -7,8 +7,10 @@
     <img src="<?php echo BASE_URL; ?>/uploads/noticias/<?php echo $Usuario['imagem']; ?>" alt="news" />
 
 	<p style="border-bottom: 1px dashed #ccc; padding-bottom: 50px; line-height: 40px">
-	<?php echo '<a href=ultimasnot_geral/completa?id='.$Usuario['id']. '>'; ?>
+	<?php echo '<a class="new" href=ultimasnot_geral/completa?id='.$Usuario['id']. '>'; ?>
 	<?php echo Helpers::limitaPalavras(utf8_encode($Usuario['texto']),43); ?></a>
 	</p>
  
     <?php endforeach; ?>
+
+    <a class="new" href="ultimasnot_geral/completa?id='.$carrosel[' id']. '>
